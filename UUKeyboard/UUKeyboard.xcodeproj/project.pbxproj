@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2498E2FA1C3D7C1A0054B2D3 /* UUKeyboardBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2498E2F91C3D7C1A0054B2D3 /* UUKeyboardBackgroundView.m */; };
+		2498E2FD1C3D7C320054B2D3 /* UUKeyboardMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2498E2FC1C3D7C320054B2D3 /* UUKeyboardMaskView.m */; };
+		2498E3001C3D7C420054B2D3 /* UUSoftKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2498E2FF1C3D7C420054B2D3 /* UUSoftKeyboardView.m */; };
 		24F2514D1C3C2FAE001F6E80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F2514C1C3C2FAE001F6E80 /* main.m */; };
 		24F251501C3C2FAE001F6E80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F2514F1C3C2FAE001F6E80 /* AppDelegate.m */; };
 		24F251531C3C2FAE001F6E80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F251521C3C2FAE001F6E80 /* ViewController.m */; };
@@ -18,6 +21,7 @@
 		24F251741C3C2FAE001F6E80 /* UUKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F251731C3C2FAE001F6E80 /* UUKeyboardUITests.m */; };
 		24F251891C3C2FCC001F6E80 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F251881C3C2FCC001F6E80 /* KeyboardViewController.m */; };
 		24F2518D1C3C2FCC001F6E80 /* UUKeyboardExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 24F251851C3C2FCC001F6E80 /* UUKeyboardExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		99376851600DCF49BCACD22E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F03F721FAB71B248E7A0203 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2498E2F81C3D7C1A0054B2D3 /* UUKeyboardBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUKeyboardBackgroundView.h; sourceTree = "<group>"; };
+		2498E2F91C3D7C1A0054B2D3 /* UUKeyboardBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUKeyboardBackgroundView.m; sourceTree = "<group>"; };
+		2498E2FB1C3D7C320054B2D3 /* UUKeyboardMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUKeyboardMaskView.h; sourceTree = "<group>"; };
+		2498E2FC1C3D7C320054B2D3 /* UUKeyboardMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUKeyboardMaskView.m; sourceTree = "<group>"; };
+		2498E2FE1C3D7C420054B2D3 /* UUSoftKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUSoftKeyboardView.h; sourceTree = "<group>"; };
+		2498E2FF1C3D7C420054B2D3 /* UUSoftKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUSoftKeyboardView.m; sourceTree = "<group>"; };
 		24F251481C3C2FAE001F6E80 /* UUKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UUKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F2514C1C3C2FAE001F6E80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24F2514E1C3C2FAE001F6E80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -80,6 +90,9 @@
 		24F251871C3C2FCC001F6E80 /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
 		24F251881C3C2FCC001F6E80 /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
 		24F2518A1C3C2FCC001F6E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31DE34977B59935BE4F5CFAF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7F03F721FAB71B248E7A0203 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD69774A302DFB6C8136914B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99376851600DCF49BCACD22E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +136,8 @@
 				24F251721C3C2FAE001F6E80 /* UUKeyboardUITests */,
 				24F251861C3C2FCC001F6E80 /* UUKeyboardExtension */,
 				24F251491C3C2FAE001F6E80 /* Products */,
+				6C76C8A9E9475CD02DCF873B /* Pods */,
+				97BB44C2B7D266F25316119B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,8 +201,31 @@
 				24F251871C3C2FCC001F6E80 /* KeyboardViewController.h */,
 				24F251881C3C2FCC001F6E80 /* KeyboardViewController.m */,
 				24F2518A1C3C2FCC001F6E80 /* Info.plist */,
+				2498E2F81C3D7C1A0054B2D3 /* UUKeyboardBackgroundView.h */,
+				2498E2F91C3D7C1A0054B2D3 /* UUKeyboardBackgroundView.m */,
+				2498E2FB1C3D7C320054B2D3 /* UUKeyboardMaskView.h */,
+				2498E2FC1C3D7C320054B2D3 /* UUKeyboardMaskView.m */,
+				2498E2FE1C3D7C420054B2D3 /* UUSoftKeyboardView.h */,
+				2498E2FF1C3D7C420054B2D3 /* UUSoftKeyboardView.m */,
 			);
 			path = UUKeyboardExtension;
+			sourceTree = "<group>";
+		};
+		6C76C8A9E9475CD02DCF873B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31DE34977B59935BE4F5CFAF /* Pods.debug.xcconfig */,
+				BD69774A302DFB6C8136914B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		97BB44C2B7D266F25316119B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F03F721FAB71B248E7A0203 /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,10 +235,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24F251781C3C2FAE001F6E80 /* Build configuration list for PBXNativeTarget "UUKeyboard" */;
 			buildPhases = (
+				FEC0738421AAE6DD0F8D7940 /* Check Pods Manifest.lock */,
 				24F251441C3C2FAE001F6E80 /* Sources */,
 				24F251451C3C2FAE001F6E80 /* Frameworks */,
 				24F251461C3C2FAE001F6E80 /* Resources */,
 				24F251911C3C2FCC001F6E80 /* Embed App Extensions */,
+				956F3B4372D0509859EC71AA /* Embed Pods Frameworks */,
+				115121D2AC7D9545529FD8B4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -346,6 +388,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		115121D2AC7D9545529FD8B4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		956F3B4372D0509859EC71AA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEC0738421AAE6DD0F8D7940 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24F251441C3C2FAE001F6E80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -379,6 +469,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				24F251891C3C2FCC001F6E80 /* KeyboardViewController.m in Sources */,
+				2498E3001C3D7C420054B2D3 /* UUSoftKeyboardView.m in Sources */,
+				2498E2FD1C3D7C320054B2D3 /* UUKeyboardMaskView.m in Sources */,
+				2498E2FA1C3D7C1A0054B2D3 /* UUKeyboardBackgroundView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +599,7 @@
 		};
 		24F251791C3C2FAE001F6E80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31DE34977B59935BE4F5CFAF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -520,6 +614,7 @@
 		};
 		24F2517A1C3C2FAE001F6E80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD69774A302DFB6C8136914B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -627,6 +722,7 @@
 				24F2517A1C3C2FAE001F6E80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24F2517B1C3C2FAE001F6E80 /* Build configuration list for PBXNativeTarget "UUKeyboardTests" */ = {
 			isa = XCConfigurationList;
@@ -635,6 +731,7 @@
 				24F2517D1C3C2FAE001F6E80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24F2517E1C3C2FAE001F6E80 /* Build configuration list for PBXNativeTarget "UUKeyboardUITests" */ = {
 			isa = XCConfigurationList;
@@ -643,6 +740,7 @@
 				24F251801C3C2FAE001F6E80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24F2518E1C3C2FCC001F6E80 /* Build configuration list for PBXNativeTarget "UUKeyboardExtension" */ = {
 			isa = XCConfigurationList;
@@ -651,6 +749,7 @@
 				24F251901C3C2FCC001F6E80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
